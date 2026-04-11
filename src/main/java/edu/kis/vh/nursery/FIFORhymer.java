@@ -4,6 +4,7 @@ public class FIFORhymer extends DefaultCountingOutRhymer {
     /*
         tworzy tymczasowy stos pomocniczy
      */
+    // TODO: zoptymalizowac zuzycie pamieci, najlepiej zadeklarowac ten stos wewnatrz metody countOut()
     private final DefaultCountingOutRhymer temp = new DefaultCountingOutRhymer();
 
     /*

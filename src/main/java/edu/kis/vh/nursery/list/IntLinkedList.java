@@ -4,6 +4,7 @@ public class IntLinkedList {
 
     public static final int EMPTY_STACK_VALUE = -1;
     private Node last;
+    // TODO: Pole i nie jest nigdzie używane w logice klasy nalezy je usunac
     private int i;
 
     public void push(int i) {
