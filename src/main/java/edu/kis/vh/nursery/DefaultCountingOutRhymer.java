@@ -13,7 +13,7 @@ public class DefaultCountingOutRhymer {
         if (!isFull())
             numbers[++total] = in;
     }
-
+    // TODO: zmienic nazwe na  isEmpty()
     public boolean callCheck() {
         return total == EMPTY_STACK_VALUE;
     }
@@ -22,6 +22,7 @@ public class DefaultCountingOutRhymer {
         return total == FULL_STACK_INDEX;
     }
 
+    // TODO: zmienic nazwe na  peek()
     protected int peekaboo() {
         if (callCheck())
             return EMPTY_STACK_VALUE;
